@@ -1,5 +1,5 @@
 {
-  "name": "storyblok-csv-importer",
+  "name": "angewandte_abschlussarbeiten_storyblok_csv_import",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^14.2.0",
     "fast-csv": "^4.3.1",
-    "storyblok-js-client": "^2.5.1"
+    "storyblok-js-client": "^4.2.0"
   }
 }
