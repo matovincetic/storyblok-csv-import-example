@@ -1,0 +1,760 @@
+{
+  "stories": [
+	{
+	  "name": "1220",
+	  "created_at": "2022-06-09T06:13:02.962Z",
+	  "published_at": "2022-06-09T06:22:38.241Z",
+	  "alternates": [],
+	  "id": 147798536,
+	  "uuid": "7e25b7fe-0e55-4416-87e8-c7cdfb7baac5",
+	  "content": {
+		"_uid": "8daa4649-edc3-439a-8932-412163c10bfe",
+		"title": "1220",
+		"address": "",
+		"building": "",
+		"component": "data_place",
+		"maps_link": "",
+		"is_university_building": false
+	  },
+	  "slug": "1220",
+	  "full_slug": "2022/data/data-places/1220",
+	  "default_full_slug": null,
+	  "sort_by_date": null,
+	  "position": -180,
+	  "tag_list": [],
+	  "is_startpage": false,
+	  "parent_id": 130983445,
+	  "meta_data": null,
+	  "group_id": "ae185cc6-8293-47b6-b9a8-17c080864156",
+	  "first_published_at": "2022-06-09T06:22:38.241Z",
+	  "release_id": null,
+	  "lang": "default",
+	  "path": null,
+	  "translated_slugs": []
+	},
+	{
+	  "name": "Oskar-Kokoschka-Platz",
+	  "created_at": "2022-06-09T06:04:40.341Z",
+	  "published_at": "2022-06-09T06:22:38.548Z",
+	  "alternates": [],
+	  "id": 147798511,
+	  "uuid": "a4be31cb-2c18-4c37-92ab-1d693eabe889",
+	  "content": {
+		"_uid": "6d4442d2-5bc0-4691-aaf7-028d3502c2cf",
+		"title": "Oskar-Kokoschka-Platz",
+		"address": "Oskar-Kokoschka-Platz, 1010 Wien ",
+		"building": "",
+		"component": "data_place",
+		"maps_link": "",
+		"is_university_building": true
+	  },
+	  "slug": "oskar-kokoschka-platz",
+	  "full_slug": "2022/data/data-places/oskar-kokoschka-platz",
+	  "default_full_slug": null,
+	  "sort_by_date": null,
+	  "position": -170,
+	  "tag_list": [],
+	  "is_startpage": false,
+	  "parent_id": 130983445,
+	  "meta_data": null,
+	  "group_id": "592f294d-0311-4562-ba24-eaa06cdd9615",
+	  "first_published_at": "2022-06-09T06:22:38.548Z",
+	  "release_id": null,
+	  "lang": "default",
+	  "path": null,
+	  "translated_slugs": []
+	},
+	{
+	  "name": "Expositur Rustenschacherallee",
+	  "created_at": "2022-06-01T14:54:29.014Z",
+	  "published_at": "2022-06-09T06:22:38.878Z",
+	  "alternates": [],
+	  "id": 144260237,
+	  "uuid": "e81b07ed-45e4-4284-b58c-b9adfb85f286",
+	  "content": {
+		"_uid": "8b0bea87-ce0f-4f45-9aa2-441a4d89aaeb",
+		"title": "Expositur Rustenschacherallee, 1020",
+		"address": "Rustenschacherallee 2-4, 1020 Wien",
+		"building": "",
+		"component": "data_place",
+		"maps_link": "",
+		"is_university_building": true
+	  },
+	  "slug": "expositur-rustenschacherallee",
+	  "full_slug": "2022/data/data-places/expositur-rustenschacherallee",
+	  "default_full_slug": null,
+	  "sort_by_date": null,
+	  "position": -160,
+	  "tag_list": [],
+	  "is_startpage": false,
+	  "parent_id": 130983445,
+	  "meta_data": null,
+	  "group_id": "f36d6982-ead4-4e88-921f-60482cf9c503",
+	  "first_published_at": "2022-06-09T06:22:38.878Z",
+	  "release_id": null,
+	  "lang": "default",
+	  "path": null,
+	  "translated_slugs": []
+	},
+	{
+	  "name": "Expositur Paulusplatz",
+	  "created_at": "2022-06-01T14:53:31.261Z",
+	  "published_at": "2022-06-09T06:22:39.199Z",
+	  "alternates": [],
+	  "id": 144260230,
+	  "uuid": "26d97941-1c3e-4006-a4a8-1551b1d8aab5",
+	  "content": {
+		"_uid": "75964e0d-2b81-4eae-9dfe-24dbb2620879",
+		"title": "Expositur Paulusplatz, 1030",
+		"address": "Paulusplatz 5, 1030 Wien",
+		"building": "",
+		"component": "data_place",
+		"maps_link": "",
+		"is_university_building": true
+	  },
+	  "slug": "expositur-paulusplatz",
+	  "full_slug": "2022/data/data-places/expositur-paulusplatz",
+	  "default_full_slug": null,
+	  "sort_by_date": null,
+	  "position": -150,
+	  "tag_list": [],
+	  "is_startpage": false,
+	  "parent_id": 130983445,
+	  "meta_data": null,
+	  "group_id": "0f443892-cea4-4f32-9413-872de3cd67e6",
+	  "first_published_at": "2022-06-09T06:22:39.199Z",
+	  "release_id": null,
+	  "lang": "default",
+	  "path": null,
+	  "translated_slugs": []
+	},
+	{
+	  "name": "Universitätsgalerie im Heiligenkreuzer Hof",
+	  "created_at": "2022-06-01T14:51:47.133Z",
+	  "published_at": "2022-06-09T06:22:39.548Z",
+	  "alternates": [],
+	  "id": 144258417,
+	  "uuid": "584bb21f-d19b-4e52-af78-e7151724729d",
+	  "content": {
+		"_uid": "0839023b-68fb-4bde-9abc-f5d848d439e8",
+		"title": "Universitätsgalerie im Heiligenkreuzer Hof, 1010",
+		"address": "Schönlaterngasse 5, 1010 Wien",
+		"building": "",
+		"component": "data_place",
+		"maps_link": "",
+		"is_university_building": true
+	  },
+	  "slug": "universitaetsgalerie-im-heiligenkreuzer-hof",
+	  "full_slug": "2022/data/data-places/universitaetsgalerie-im-heiligenkreuzer-hof",
+	  "default_full_slug": null,
+	  "sort_by_date": null,
+	  "position": -140,
+	  "tag_list": [],
+	  "is_startpage": false,
+	  "parent_id": 130983445,
+	  "meta_data": null,
+	  "group_id": "b1ea9efb-ae99-449c-90cd-16e6144cbddd",
+	  "first_published_at": "2022-06-09T06:22:39.548Z",
+	  "release_id": null,
+	  "lang": "default",
+	  "path": null,
+	  "translated_slugs": []
+	},
+	{
+	  "name": "Bezirksübergreifend",
+	  "created_at": "2022-05-31T12:19:46.973Z",
+	  "published_at": "2022-06-09T06:22:39.874Z",
+	  "alternates": [],
+	  "id": 143505803,
+	  "uuid": "70f95ff3-0a22-49f8-a8b4-6507bd2f05dc",
+	  "content": {
+		"_uid": "7dcc8545-8ef0-4097-9de0-f42ac4e1c6ae",
+		"title": "Bezirksübergreifend",
+		"address": "",
+		"building": "",
+		"component": "data_place",
+		"maps_link": ""
+	  },
+	  "slug": "bezirksuebergreifend",
+	  "full_slug": "2022/data/data-places/bezirksuebergreifend",
+	  "default_full_slug": null,
+	  "sort_by_date": null,
+	  "position": -130,
+	  "tag_list": [],
+	  "is_startpage": false,
+	  "parent_id": 130983445,
+	  "meta_data": null,
+	  "group_id": "8b3dd4ae-f8e5-4b79-b817-8b5c2bfa8eee",
+	  "first_published_at": "2022-05-31T20:08:36.940Z",
+	  "release_id": null,
+	  "lang": "default",
+	  "path": null,
+	  "translated_slugs": []
+	},
+	{
+	  "name": "1150",
+	  "created_at": "2022-05-06T09:10:05.253Z",
+	  "published_at": "2022-06-09T06:22:40.209Z",
+	  "alternates": [],
+	  "id": 132279793,
+	  "uuid": "32ea9dcb-994f-4e3e-99a9-589252828513",
+	  "content": {
+		"_uid": "8454eeec-3eba-472b-964a-51697143c263",
+		"title": "1150",
+		"address": "",
+		"building": "",
+		"component": "data_place",
+		"maps_link": ""
+	  },
+	  "slug": "1150",
+	  "full_slug": "2022/data/data-places/1150",
+	  "default_full_slug": null,
+	  "sort_by_date": null,
+	  "position": -120,
+	  "tag_list": [],
+	  "is_startpage": false,
+	  "parent_id": 130983445,
+	  "meta_data": null,
+	  "group_id": "fd832005-8e88-4341-a8fe-f22d8d9aa5cb",
+	  "first_published_at": "2022-05-16T08:43:29.860Z",
+	  "release_id": null,
+	  "lang": "default",
+	  "path": null,
+	  "translated_slugs": []
+	},
+	{
+	  "name": "1100",
+	  "created_at": "2022-05-06T09:10:00.100Z",
+	  "published_at": "2022-06-09T06:22:40.576Z",
+	  "alternates": [],
+	  "id": 132279792,
+	  "uuid": "667ac515-32b3-4385-a3fe-8e0e81752a5a",
+	  "content": {
+		"_uid": "66a29127-a974-4d6e-9ce2-d03f2933f0c9",
+		"title": "1100",
+		"address": "",
+		"building": "",
+		"component": "data_place",
+		"maps_link": ""
+	  },
+	  "slug": "1100",
+	  "full_slug": "2022/data/data-places/1100",
+	  "default_full_slug": null,
+	  "sort_by_date": null,
+	  "position": -110,
+	  "tag_list": [],
+	  "is_startpage": false,
+	  "parent_id": 130983445,
+	  "meta_data": null,
+	  "group_id": "a7c4ed6a-031b-4be3-8997-43e7077acadf",
+	  "first_published_at": "2022-05-16T08:43:29.860Z",
+	  "release_id": null,
+	  "lang": "default",
+	  "path": null,
+	  "translated_slugs": []
+	},
+	{
+	  "name": "1070",
+	  "created_at": "2022-05-06T09:09:47.737Z",
+	  "published_at": "2022-06-09T06:22:40.884Z",
+	  "alternates": [],
+	  "id": 132279790,
+	  "uuid": "455d8ba0-fab9-4fa5-8482-1b4b7d780e17",
+	  "content": {
+		"_uid": "84a17204-f68f-4712-a56d-dbe121bebe77",
+		"title": "1070",
+		"address": "",
+		"building": "",
+		"component": "data_place",
+		"maps_link": ""
+	  },
+	  "slug": "1070",
+	  "full_slug": "2022/data/data-places/1070",
+	  "default_full_slug": null,
+	  "sort_by_date": null,
+	  "position": -100,
+	  "tag_list": [],
+	  "is_startpage": false,
+	  "parent_id": 130983445,
+	  "meta_data": null,
+	  "group_id": "603dbfd8-d95e-43f5-ab3e-6fc7ff604ff6",
+	  "first_published_at": "2022-05-16T08:43:29.860Z",
+	  "release_id": null,
+	  "lang": "default",
+	  "path": null,
+	  "translated_slugs": []
+	},
+	{
+	  "name": "1040",
+	  "created_at": "2022-05-06T09:09:33.159Z",
+	  "published_at": "2022-06-09T06:22:41.218Z",
+	  "alternates": [],
+	  "id": 132279785,
+	  "uuid": "b1fdd520-9974-4565-a511-ab3b6cd2bb6d",
+	  "content": {
+		"_uid": "3ecf2dcf-9c7f-4b39-900d-32954cc5b401",
+		"title": "1040",
+		"address": "",
+		"building": "",
+		"component": "data_place",
+		"maps_link": ""
+	  },
+	  "slug": "1040",
+	  "full_slug": "2022/data/data-places/1040",
+	  "default_full_slug": null,
+	  "sort_by_date": null,
+	  "position": -70,
+	  "tag_list": [],
+	  "is_startpage": false,
+	  "parent_id": 130983445,
+	  "meta_data": null,
+	  "group_id": "6d47cdff-b190-4b82-b27e-317090c8bf44",
+	  "first_published_at": "2022-05-16T08:43:29.860Z",
+	  "release_id": null,
+	  "lang": "default",
+	  "path": null,
+	  "translated_slugs": []
+	},
+	{
+	  "name": "1030",
+	  "created_at": "2022-05-06T09:09:27.806Z",
+	  "published_at": "2022-06-09T06:22:41.546Z",
+	  "alternates": [],
+	  "id": 132279784,
+	  "uuid": "dee76f1d-8cf1-4c04-925c-6166f027773e",
+	  "content": {
+		"_uid": "12546faf-35d5-4a8f-adc6-6caa931ff473",
+		"title": "1030",
+		"address": "",
+		"building": "",
+		"component": "data_place",
+		"maps_link": ""
+	  },
+	  "slug": "1030",
+	  "full_slug": "2022/data/data-places/1030",
+	  "default_full_slug": null,
+	  "sort_by_date": null,
+	  "position": -60,
+	  "tag_list": [],
+	  "is_startpage": false,
+	  "parent_id": 130983445,
+	  "meta_data": null,
+	  "group_id": "d8226194-8550-48d8-861d-b8bbc5e13df3",
+	  "first_published_at": "2022-05-16T08:43:29.860Z",
+	  "release_id": null,
+	  "lang": "default",
+	  "path": null,
+	  "translated_slugs": []
+	},
+	{
+	  "name": "Save the Date",
+	  "created_at": "2022-05-31T06:39:50.904Z",
+	  "published_at": "2022-06-03T14:54:50.869Z",
+	  "alternates": [],
+	  "id": 143192871,
+	  "uuid": "2989e8a9-4dc8-4c33-a4dd-fbeaaf0f73c8",
+	  "content": {
+		"SEO": {
+		  "_uid": "8281ee7b-4040-4901-b6f3-828ee3d1a6d4",
+		  "title": "Angewandte Festival 2022 → Save the Date",
+		  "plugin": "seo_metatags",
+		  "og_image": "",
+		  "og_title": "",
+		  "description": "Save the Date → Angewandte Festival 2022 von Dienstag, 28.6. bis Freitag, 1.7. → Programm online ab 20.6. ",
+		  "twitter_image": "",
+		  "twitter_title": "",
+		  "og_description": "",
+		  "twitter_description": ""
+		},
+		"_uid": "e4cff4e9-dd96-4fc4-9ece-0aeee6fd1475",
+		"text": [
+		  {
+			"_uid": "1097e472-c7ff-4b56-8296-53626e324521",
+			"component": "component_save-the-date_textfragment",
+			"textfragement": "Save the Date"
+		  },
+		  {
+			"_uid": "3c9c2435-2fa2-4019-8bc0-e90342ee78f7",
+			"component": "component_save-the-date_textfragment",
+			"textfragement": "Angewandte Festival 2022"
+		  },
+		  {
+			"_uid": "ec6ac755-5eca-4f56-808e-d18d501d4704",
+			"component": "component_save-the-date_textfragment",
+			"textfragement": "Dienstag, 28.6. — Freitag, 1.7."
+		  },
+		  {
+			"_uid": "1f8f5917-5c93-47e9-b865-e40eab32677e",
+			"component": "component_save-the-date_textfragment",
+			"textfragement": "Programm online ab 20.6."
+		  }
+		],
+		"component": "page_save-the-date"
+	  },
+	  "slug": "save-the-date",
+	  "full_slug": "2022/save-the-date",
+	  "default_full_slug": null,
+	  "sort_by_date": null,
+	  "position": -50,
+	  "tag_list": [],
+	  "is_startpage": false,
+	  "parent_id": 130096136,
+	  "meta_data": null,
+	  "group_id": "f774e81f-6704-4709-86e0-853741608828",
+	  "first_published_at": "2022-06-01T07:51:42.078Z",
+	  "release_id": null,
+	  "lang": "default",
+	  "path": null,
+	  "translated_slugs": []
+	},
+	{
+	  "name": "1020",
+	  "created_at": "2022-05-06T09:09:23.365Z",
+	  "published_at": "2022-06-09T06:22:41.883Z",
+	  "alternates": [],
+	  "id": 132279783,
+	  "uuid": "fde965ba-5364-440c-8b3c-8e828a2311cb",
+	  "content": {
+		"_uid": "453b8895-72fd-4289-b5a0-6575bf843fc1",
+		"title": "1020",
+		"address": "",
+		"building": "",
+		"component": "data_place",
+		"maps_link": ""
+	  },
+	  "slug": "1020",
+	  "full_slug": "2022/data/data-places/1020",
+	  "default_full_slug": null,
+	  "sort_by_date": null,
+	  "position": -50,
+	  "tag_list": [],
+	  "is_startpage": false,
+	  "parent_id": 130983445,
+	  "meta_data": null,
+	  "group_id": "85f6199d-2fbf-4652-956c-e21ee6ac9e4b",
+	  "first_published_at": "2022-05-16T08:43:29.860Z",
+	  "release_id": null,
+	  "lang": "default",
+	  "path": null,
+	  "translated_slugs": []
+	},
+	{
+	  "name": "1010",
+	  "created_at": "2022-05-06T09:09:15.565Z",
+	  "published_at": "2022-06-09T06:22:42.222Z",
+	  "alternates": [],
+	  "id": 132279782,
+	  "uuid": "446c0d6f-2fdf-4130-897b-a0e29a353df9",
+	  "content": {
+		"_uid": "a9190f5d-7184-4384-bd3f-983eed869e35",
+		"title": "1010",
+		"address": "",
+		"building": "",
+		"component": "data_place",
+		"maps_link": ""
+	  },
+	  "slug": "1010",
+	  "full_slug": "2022/data/data-places/1010",
+	  "default_full_slug": null,
+	  "sort_by_date": null,
+	  "position": -40,
+	  "tag_list": [],
+	  "is_startpage": false,
+	  "parent_id": 130983445,
+	  "meta_data": null,
+	  "group_id": "f9df605f-72bd-4778-bc77-2cf617fa850b",
+	  "first_published_at": "2022-05-16T08:43:29.860Z",
+	  "release_id": null,
+	  "lang": "default",
+	  "path": null,
+	  "translated_slugs": []
+	},
+	{
+	  "name": "Alle meine Entchen",
+	  "created_at": "2022-05-22T20:01:46.429Z",
+	  "published_at": "2022-06-02T09:14:44.918Z",
+	  "alternates": [],
+	  "id": 139195112,
+	  "uuid": "9a528be8-1108-4f70-b841-3bd3a455242d",
+	  "content": {
+		"_uid": "3f7df31d-cecf-4a01-9734-ca57adba8f0f",
+		"days": [
+		  "bd8b68d3-89a6-4d5a-a518-b65f7538370c"
+		],
+		"text": {
+		  "type": "doc",
+		  "content": [
+			{
+			  "type": "paragraph",
+			  "content": [
+				{
+				  "text": "This is the Richtextfiled.",
+				  "type": "text"
+				}
+			  ]
+			}
+		  ]
+		},
+		"place": "b705d889-c8b4-4e88-a7b6-6a62f7788711",
+		"title": "Alle meine Entchen",
+		"images": [],
+		"formats": [
+		  "5024d8fa-acc5-4180-9ecd-39753ce04331"
+		],
+		"richtext": {
+		  "type": "doc",
+		  "content": [
+			{
+			  "type": "paragraph",
+			  "content": [
+				{
+				  "text": "This is the Richtext.",
+				  "type": "text"
+				}
+			  ]
+			}
+		  ]
+		},
+		"subtitle": "Schwimmen auf den See",
+		"time_end": "22:00",
+		"component": "page_program_entry_2022",
+		"time_start": "10:00",
+		"departments": [
+		  "57624238-cba0-488c-b57f-55bb7bc43132"
+		],
+		"preview_image": {
+		  "id": null,
+		  "alt": null,
+		  "name": "",
+		  "focus": null,
+		  "title": null,
+		  "filename": null,
+		  "copyright": null,
+		  "fieldtype": "asset"
+		},
+		"notes_copytext": [],
+		"notes_hardfacts": [
+		  {
+			"_uid": "7b78eea7-32fd-47c6-bb1a-8f040f48e949",
+			"title": "Hardfacts Notiz 1",
+			"richtext": {
+			  "type": "doc",
+			  "content": [
+				{
+				  "type": "paragraph",
+				  "content": [
+					{
+					  "text": "Lorem",
+					  "type": "text"
+					}
+				  ]
+				}
+			  ]
+			},
+			"component": "component_note"
+		  },
+		  {
+			"_uid": "8114dcae-1037-4e5b-8aca-cdfc7fbdbc83",
+			"title": "Zweite Notiz",
+			"richtext": {
+			  "type": "doc",
+			  "content": [
+				{
+				  "type": "paragraph",
+				  "content": [
+					{
+					  "text": "Lorem",
+					  "type": "text"
+					}
+				  ]
+				}
+			  ]
+			},
+			"component": "component_note"
+		  }
+		],
+		"place_city_name": "",
+		"place_city_address": "",
+		"place_city_maps_link": "",
+		"place_university_room": "",
+		"place_university_floor": ""
+	  },
+	  "slug": "alle-meine-entchen",
+	  "full_slug": "2022/beitraege/alle-meine-entchen",
+	  "default_full_slug": null,
+	  "sort_by_date": null,
+	  "position": -30,
+	  "tag_list": [],
+	  "is_startpage": false,
+	  "parent_id": 131002653,
+	  "meta_data": null,
+	  "group_id": "2f7bcc01-2676-4b1c-8ad2-e635c76bd846",
+	  "first_published_at": "2022-05-25T10:07:11.183Z",
+	  "release_id": null,
+	  "lang": "default",
+	  "path": null,
+	  "translated_slugs": []
+	},
+	{
+	  "name": "Georg-Coch-Platz 2",
+	  "created_at": "2022-05-03T11:14:25.868Z",
+	  "published_at": "2022-06-09T06:22:42.544Z",
+	  "alternates": [],
+	  "id": 130995602,
+	  "uuid": "58e12251-c526-403a-ab0e-01741259e166",
+	  "content": {
+		"_uid": "5ab840f0-02d9-4671-b77d-1efcb2b75630",
+		"title": "PSK",
+		"address": "Georg-Coch-Platz 2, 1010 Wien",
+		"building": "",
+		"component": "data_place",
+		"maps_link": "",
+		"is_in_district": "4cb65686-46ae-44eb-aab1-dce32cf39ddf",
+		"is_university_building": true
+	  },
+	  "slug": "georg-coch-platz-2",
+	  "full_slug": "2022/data/data-places/georg-coch-platz-2",
+	  "default_full_slug": null,
+	  "sort_by_date": null,
+	  "position": -30,
+	  "tag_list": [],
+	  "is_startpage": false,
+	  "parent_id": 130983445,
+	  "meta_data": null,
+	  "group_id": "cc8f52be-c8ee-46a9-a3d2-e829dc629092",
+	  "first_published_at": "2022-05-04T10:06:46.565Z",
+	  "release_id": null,
+	  "lang": "default",
+	  "path": null,
+	  "translated_slugs": []
+	},
+	{
+	  "name": "Vordere Zollamtstraße 7",
+	  "created_at": "2022-05-03T11:13:26.332Z",
+	  "published_at": "2022-06-09T06:22:42.870Z",
+	  "alternates": [],
+	  "id": 130993222,
+	  "uuid": "b705d889-c8b4-4e88-a7b6-6a62f7788711",
+	  "content": {
+		"_uid": "d351b466-b681-4f53-a001-9b0a92fd3796",
+		"title": "VZA 7",
+		"address": "Vordere Zollamtstraße 7, 1030 Wien",
+		"building": "",
+		"component": "data_place",
+		"maps_link": "https://goo.gl/maps/VCdhj2was1Rp3ek6A",
+		"is_in_district": "c20807d0-c347-4905-b899-c4194706c736",
+		"is_university_building": true
+	  },
+	  "slug": "vordere-zollamtstrasse-7",
+	  "full_slug": "2022/data/data-places/vordere-zollamtstrasse-7",
+	  "default_full_slug": null,
+	  "sort_by_date": null,
+	  "position": -20,
+	  "tag_list": [],
+	  "is_startpage": false,
+	  "parent_id": 130983445,
+	  "meta_data": null,
+	  "group_id": "668e9ad0-be6b-470f-a27e-a29a3650bd33",
+	  "first_published_at": "2022-05-04T10:06:46.565Z",
+	  "release_id": null,
+	  "lang": "default",
+	  "path": null,
+	  "translated_slugs": []
+	},
+	{
+	  "name": "Oskar-Kokoschka-Platz 2, Ferstel-Trakt",
+	  "created_at": "2022-05-03T11:12:25.334Z",
+	  "published_at": "2022-06-09T06:22:43.209Z",
+	  "alternates": [],
+	  "id": 130991689,
+	  "uuid": "06699dee-1333-49b9-8bf1-b3ec0544632d",
+	  "content": {
+		"_uid": "b48fd4ce-5b81-4386-b7f6-920dc5cc96b8",
+		"title": "OKP-Ferstel-Trakt",
+		"address": "Oskar-Kokoschka-Platz 2, 1010 Wien",
+		"building": "Ferstel-Trakt",
+		"component": "data_place",
+		"maps_link": "",
+		"is_in_district": "4cb65686-46ae-44eb-aab1-dce32cf39ddf",
+		"is_university_building": true
+	  },
+	  "slug": "oskar-kokoschka-platz-2-ferstel-trakt",
+	  "full_slug": "2022/data/data-places/oskar-kokoschka-platz-2-ferstel-trakt",
+	  "default_full_slug": null,
+	  "sort_by_date": null,
+	  "position": -10,
+	  "tag_list": [],
+	  "is_startpage": false,
+	  "parent_id": 130983445,
+	  "meta_data": null,
+	  "group_id": "979e0651-c3f9-47c0-87f7-031c2101ce19",
+	  "first_published_at": "2022-05-04T10:06:46.565Z",
+	  "release_id": null,
+	  "lang": "default",
+	  "path": null,
+	  "translated_slugs": []
+	},
+	{
+	  "name": "Institut für Sprachkunst",
+	  "created_at": "2022-05-03T09:54:21.644Z",
+	  "published_at": "2022-06-01T15:03:10.758Z",
+	  "alternates": [],
+	  "id": 130942545,
+	  "uuid": "4507a8e6-ff4c-4c43-a324-9986818a9a4d",
+	  "content": {
+		"_uid": "d1d7137f-80dc-4448-99b7-1fb3f16a6dfe",
+		"link": "",
+		"title": "Institut für Sprachkunst",
+		"component": "data_institute"
+	  },
+	  "slug": "institut-fur-sprachkunst",
+	  "full_slug": "2022/data/data-institutes/institut-fur-sprachkunst",
+	  "default_full_slug": null,
+	  "sort_by_date": null,
+	  "position": -10,
+	  "tag_list": [],
+	  "is_startpage": false,
+	  "parent_id": 130937872,
+	  "meta_data": null,
+	  "group_id": "4aeec394-cd36-4295-bef1-564b93a9b249",
+	  "first_published_at": "2022-05-04T10:06:46.565Z",
+	  "release_id": null,
+	  "lang": "default",
+	  "path": null,
+	  "translated_slugs": []
+	},
+	{
+	  "name": "Oskar-Kokoschka-Platz 2, Schwanzer-Trakt",
+	  "created_at": "2022-05-03T11:09:37.298Z",
+	  "published_at": "2022-06-09T06:22:43.543Z",
+	  "alternates": [],
+	  "id": 130986650,
+	  "uuid": "cdb6d979-37c6-4d4b-b79a-626849b9d2a0",
+	  "content": {
+		"_uid": "2d76e486-2f78-421b-a613-1df23b6fc481",
+		"title": "OKP-Schwanzer-Trakt",
+		"address": "Oskar-Kokoschka-Platz 2, 1010 Wien",
+		"building": "Schwanzer-Trakt",
+		"component": "data_place",
+		"maps_link": "",
+		"is_in_district": "4cb65686-46ae-44eb-aab1-dce32cf39ddf",
+		"is_university_building": true
+	  },
+	  "slug": "oskar-kokoschka-platz-2-schwanzer-trakt",
+	  "full_slug": "2022/data/data-places/oskar-kokoschka-platz-2-schwanzer-trakt",
+	  "default_full_slug": null,
+	  "sort_by_date": null,
+	  "position": 0,
+	  "tag_list": [],
+	  "is_startpage": false,
+	  "parent_id": 130983445,
+	  "meta_data": null,
+	  "group_id": "bd8cbf7e-317c-4598-b3bb-a8097b04bdff",
+	  "first_published_at": "2022-05-04T10:06:46.565Z",
+	  "release_id": null,
+	  "lang": "default",
+	  "path": null,
+	  "translated_slugs": []
+	}
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "story": {
+	"name": "Alle meine Entchen",
+	"created_at": "2022-05-22T20:01:46.429Z",
+	"published_at": "2022-06-02T09:14:44.918Z",
+	"id": 139195112,
+	"uuid": "9a528be8-1108-4f70-b841-3bd3a455242d",
+	"content": {
+	  "_uid": "3f7df31d-cecf-4a01-9734-ca57adba8f0f",
+	  "days": [
+		"bd8b68d3-89a6-4d5a-a518-b65f7538370c"
+	  ],
+	  "place": "dee76f1d-8cf1-4c04-925c-6166f027773e",
+	  "title": "Alle meine Entchen",
+	  "images": [
+		{
+		  "id": 5000711,
+		  "alt": "",
+		  "name": "",
+		  "focus": "",
+		  "title": "",
+		  "filename": "https://a.storyblok.com/f/155720/961x970/602de002d0/pedro-marum-by-andras-vizras-6-copy.jpg",
+		  "copyright": "",
+		  "fieldtype": "asset"
+		},
+		{
+		  "id": 5001027,
+		  "alt": "",
+		  "name": "",
+		  "focus": "",
+		  "title": "",
+		  "filename": "https://a.storyblok.com/f/155720/1200x630/7e3d1c9f5a/angewandte_festival-2022-meta-image-fallback.jpg",
+		  "copyright": "",
+		  "fieldtype": "asset"
+		}
+	  ],
+	  "formats": [
+		"5024d8fa-acc5-4180-9ecd-39753ce04331"
+	  ],
+	  "richtext": {
+		"type": "doc",
+		"content": [
+		  {
+			"type": "paragraph",
+			"content": [
+			  {
+				"text": "This is the Richtext.",
+				"type": "text"
+			  }
+			]
+		  }
+		]
+	  },
+	  "subtitle": "Schwimmen auf den See",
+	  "time_end": "22:00",
+	  "component": "page_program_entry_2022",
+	  "time_start": "10:00",
+	  "departments": [
+		"57624238-cba0-488c-b57f-55bb7bc43132"
+	  ],
+	  "preview_image": {
+		"id": 5000711,
+		"alt": "",
+		"name": "",
+		"focus": "",
+		"title": "",
+		"filename": "https://a.storyblok.com/f/155720/961x970/602de002d0/pedro-marum-by-andras-vizras-6-copy.jpg",
+		"copyright": "",
+		"fieldtype": "asset"
+	  },
+	  "notes_copytext": [
+		{
+		  "_uid": "3b4a9974-6074-43ca-aeb4-1da0d7ec8859",
+		  "title": "Beteiligte",
+		  "richtext": {
+			"type": "doc",
+			"content": [
+			  {
+				"type": "paragraph",
+				"content": [
+				  {
+					"text": "Test 1, Test 2",
+					"type": "text"
+				  }
+				]
+			  }
+			]
+		  },
+		  "component": "component_note",
+		  "_editable": "<!--#storyblok#{\"name\": \"component_note\", \"space\": \"155720\", \"uid\": \"3b4a9974-6074-43ca-aeb4-1da0d7ec8859\", \"id\": \"139195112\"}-->"
+		},
+		{
+		  "_uid": "618f8968-3322-4c1b-bab1-9a94f66befe4",
+		  "title": "AAA (Angewandte Abschluss Arbeiten)",
+		  "richtext": {
+			"type": "doc",
+			"content": [
+			  {
+				"type": "paragraph",
+				"content": [
+				  {
+					"text": "Name Banane",
+					"type": "text"
+				  }
+				]
+			  }
+			]
+		  },
+		  "component": "component_note",
+		  "_editable": "<!--#storyblok#{\"name\": \"component_note\", \"space\": \"155720\", \"uid\": \"618f8968-3322-4c1b-bab1-9a94f66befe4\", \"id\": \"139195112\"}-->"
+		}
+	  ],
+	  "notes_hardfacts": [
+		{
+		  "_uid": "7b78eea7-32fd-47c6-bb1a-8f040f48e949",
+		  "title": "Projektwebsite",
+		  "richtext": {
+			"type": "doc",
+			"content": [
+			  {
+				"type": "paragraph",
+				"content": [
+				  {
+					"text": "www.website.at",
+					"type": "text",
+					"marks": [
+					  {
+						"type": "link",
+						"attrs": {
+						  "href": "www.website.at",
+						  "uuid": null,
+						  "anchor": null,
+						  "target": null,
+						  "linktype": "url"
+						}
+					  }
+					]
+				  }
+				]
+			  }
+			]
+		  },
+		  "component": "component_note",
+		  "_editable": "<!--#storyblok#{\"name\": \"component_note\", \"space\": \"155720\", \"uid\": \"7b78eea7-32fd-47c6-bb1a-8f040f48e949\", \"id\": \"139195112\"}-->"
+		},
+		{
+		  "_uid": "8114dcae-1037-4e5b-8aca-cdfc7fbdbc83",
+		  "title": "Zweite Notiz",
+		  "richtext": {
+			"type": "doc",
+			"content": [
+			  {
+				"type": "paragraph",
+				"content": [
+				  {
+					"text": "Lorem",
+					"type": "text"
+				  }
+				]
+			  }
+			]
+		  },
+		  "component": "component_note",
+		  "_editable": "<!--#storyblok#{\"name\": \"component_note\", \"space\": \"155720\", \"uid\": \"8114dcae-1037-4e5b-8aca-cdfc7fbdbc83\", \"id\": \"139195112\"}-->"
+		}
+	  ],
+	  "place_city_name": "",
+	  "place_city_address": "",
+	  "place_city_maps_link": "",
+	  "place_university_room": "",
+	  "place_university_floor": "",
+	  "_editable": "<!--#storyblok#{\"name\": \"page_program_entry_2022\", \"space\": \"155720\", \"uid\": \"3f7df31d-cecf-4a01-9734-ca57adba8f0f\", \"id\": \"139195112\"}-->"
+	},
+	"slug": "alle-meine-entchen",
+	"full_slug": "2022/beitraege/alle-meine-entchen",
+	"sort_by_date": null,
+	"position": -30,
+	"tag_list": [],
+	"is_startpage": false,
+	"parent_id": 131002653,
+	"meta_data": null,
+	"group_id": "2f7bcc01-2676-4b1c-8ad2-e635c76bd846",
+	"first_published_at": "2022-05-25T10:07:11.183Z",
+	"release_id": null,
+	"lang": "default",
+	"path": null,
+	"alternates": [],
+	"default_full_slug": null,
+	"translated_slugs": null
+  },
+  "cv": 1654762667,
+  "rels": [],
+  "links": []
+}

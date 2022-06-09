@@ -24,55 +24,33 @@ const Storyblok = new StoryblokClient({
 
 const config = {
   spaceId: process.env.SPACEID, // can be found in the space settings.
-  parentFolder: process.env.FOLDERID // navigate into your folder and copy the id from the URL at app.storyblok.com <- last one 
+  parentFolder: process.env.FOLDERID_INSTITUTES // navigate into your folder and copy the id from the URL at app.storyblok.com <- last one 
 }
 
-let stream = fs.createReadStream('MATO ÜBERGABE Master - Liste AAA winter 2022 (Stand 19.01.2022) - Liste Stand 07.12.2012.csv')
+let stream = require('./institute.json')
 
-csvReader.parseStream(stream, { headers: true, delimiter: ',' })
-  .on('data', (line) => {
-    // one line of csv in here
-    let story = {
-      // TODO SLUGS
-      // TODO SLUGS
-      // TODO SLUGS
-      // TODO SLUGS
-      name: `${line.name_first} ${line.name_sur}, ${line.title}`,
-      slug: slugify(`${line.name_first} ${line.name_sur}, ${line.title}`),
-      parent_id: config.parentFolder,
-      tag_list: [
-        `Winter 22`,
-        line.degree,
-        line.institute,
-        line.department,
-        line.supervisor
-      ],
-      content: {
-        name_first: line.name_first,
-        name_sur: line.name_sur,
-        title: line.title,
-        exhibiting_at_event: true,
-        degree: line.degree,
-        semester: `Winter 22`,
-        institute: line.institute,
-        department: line.department,
-        supervisor: line.supervisor,
-        personal_website_name: line.personal_website_name,
-        personal_website_link: line.personal_website_link,
-        description: line.description,
-        specifications: line.specifications,
-        component: 'page_project',
-      }
+stream.stories.forEach(storyFromJson => {
+  let story = {
+    name: `${storyFromJson.name}`,
+    slug: slugify(`${storyFromJson.name}`),
+    parent_id: config.parentFolder,
+    content: {
+      name: `${storyFromJson.name}`,
+      link: storyFromJson.link ? storyFromJson.link : '',
+      component: 'filter_institute',
     }
+  }
 
-    Storyblok.post(`spaces/${config.spaceId}/stories/`, {
-      story
-    }).then(res => {
-      console.log(`Success: ${res.data.story.name} was created.`)
-    }).catch(err => {
-      console.log(`Error: ${err}`)
-    })
+  // console.log(story)
+
+  Storyblok.post(`spaces/${config.spaceId}/stories/`, {
+    story
+  }).then(res => {
+    console.log(`Success: ${res.data.story.name} was created.`)
+  }).catch(err => {
+    console.log(`${res.data.story.name} Error: ${err}`)
   })
+})
   // .on('end', () => {
   //   // Done reading the CSV - now we finally create the component with a definition for each field
   //   // we can also skip that and define the content type using the interface at app.storyblok.com
