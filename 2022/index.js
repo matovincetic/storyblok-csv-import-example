@@ -29,6 +29,8 @@ const config = {
   parentFolder: 131002653
 }
 
+let storiesArray = []
+
 let dataDepartments = require('./data-departments.json')
 let dataDays = require('./data-days.json')
 let dataPlaces = require('./data-places.json')
@@ -117,6 +119,17 @@ const getDepartment = (passedLine) => {
   return false
 }
 
+const checkForDuplicates = (passedStory) => {
+  const check = storiesArray.filter((storiesInArray) => {
+    return storiesInArray.name === passedStory['AUSSTELLUNGSTITEL / PROJEKTTITEL (max. 60 ZmL)']
+  })
+  
+  if (check.length > 0) {
+    return slugify(`${passedStory['AUSSTELLUNGSTITEL / PROJEKTTITEL (max. 60 ZmL)']} ${check.length}`)
+  }
+  return slugify(`${passedStory['AUSSTELLUNGSTITEL / PROJEKTTITEL (max. 60 ZmL)']}`) 
+}
+
 let dataFromCsv = fs.createReadStream('Masterliste.csv')
 
 csvReader.parseStream(dataFromCsv, { headers: true, delimiter: ',' })
@@ -154,7 +167,7 @@ csvReader.parseStream(dataFromCsv, { headers: true, delimiter: ',' })
     // one line of csv in here
     let story = {
       name: `${line['AUSSTELLUNGSTITEL / PROJEKTTITEL (max. 60 ZmL)']}` || ``,
-      slug: slugify(`${line['AUSSTELLUNGSTITEL / PROJEKTTITEL (max. 60 ZmL)']}`) || ``,
+      slug: checkForDuplicates(line),
       parent_id: config.parentFolder,
       content: {
         component: 'page_program_entry_2022',
@@ -201,11 +214,16 @@ csvReader.parseStream(dataFromCsv, { headers: true, delimiter: ',' })
       return
     }
     
-      Storyblok.post(`spaces/${config.spaceId}/stories/`, {
-        story
-      }).then(res => {
-        console.log(`Success: ${res.data.story.name} was created.`)
-      }).catch(err => {
-        console.log(`ERROR: ${story.name} failed.`)
-      })
+    storiesArray.push(story)
+}).on('end', () => {
+  storiesArray.forEach(story => {
+    Storyblok.post(`spaces/${config.spaceId}/stories/`, {
+      story
+    }).then(res => {
+      console.log(`Success: ${res.data.story.name} was created.`)
+    }).catch(err => {
+      console.log(`ERROR: ${story.name} failed.`)
+    })
+  })
 })
+
