@@ -117,6 +117,10 @@ const getDepartment = (passedLine) => {
   return false
 }
 
+const checkForDuplicateNames = (passedStoryName) => {
+  
+}
+
 let dataFromCsv = fs.createReadStream('Masterliste.csv')
 
 csvReader.parseStream(dataFromCsv, { headers: true, delimiter: ',' })
@@ -166,7 +170,7 @@ csvReader.parseStream(dataFromCsv, { headers: true, delimiter: ',' })
         time_start: line['ZEIT START'],
         time_end: line['ZEIT ENDE'] || ``,
         
-        days: getDaysByUuid(line['DATUMs ']),
+        days: getDaysByUuid(line['DATUM ']),
         
         place: getPlace(line),
         
@@ -189,12 +193,14 @@ csvReader.parseStream(dataFromCsv, { headers: true, delimiter: ',' })
         vimeo: line['VIMEO'],
         soundcloud: line['SOUNDCLOUD'],
         
-        project_website: line['WEBSITE'],
+        project_website: line['PROJEKTWEBSITE'],
         
         notes_hardfacts: notes_hardfacts,
         notes_copytext: notes_copytext,
       }
     }
+    
+    console.log(story)
     
     // const storyHasFalse = Object.values(story).some(value => value === false)
     // 
@@ -214,12 +220,12 @@ csvReader.parseStream(dataFromCsv, { headers: true, delimiter: ',' })
       console.log(`${story.name} place is false`)
       return
     }
-
-  Storyblok.post(`spaces/${config.spaceId}/stories/`, {
-    story
-  }).then(res => {
-    console.log(`Success: ${res.data.story.name} was created.`)
-  }).catch(err => {
-    console.log(`ERROR: ${story.name} failed.`)
-  })
+// 
+//   Storyblok.post(`spaces/${config.spaceId}/stories/`, {
+//     story
+//   }).then(res => {
+//     console.log(`Success: ${res.data.story.name} was created.`)
+//   }).catch(err => {
+//     console.log(`ERROR: ${story.name} failed.`)
+//   })
 })
