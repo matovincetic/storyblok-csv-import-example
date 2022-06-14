@@ -117,10 +117,6 @@ const getDepartment = (passedLine) => {
   return false
 }
 
-const checkForDuplicateNames = (passedStoryName) => {
-  
-}
-
 let dataFromCsv = fs.createReadStream('Masterliste.csv')
 
 csvReader.parseStream(dataFromCsv, { headers: true, delimiter: ',' })
@@ -200,32 +196,16 @@ csvReader.parseStream(dataFromCsv, { headers: true, delimiter: ',' })
       }
     }
     
-    console.log(story)
-    
-    // const storyHasFalse = Object.values(story).some(value => value === false)
-    // 
-    // const storyContentHasFalse = Object.values(story.content).some(value => value === false)
-    // 
-    // if (storyHasFalse)  {
-    //   console.log(`${story.name} is false`)
-    //   return
-    // }
-    // 
-    // if (storyContentHasFalse) {
-    //   console.log(`${story.name} is false`)
-    //   return
-    // }
-    
     if (story.content.place === false) {
       console.log(`${story.name} place is false`)
       return
     }
-// 
-//   Storyblok.post(`spaces/${config.spaceId}/stories/`, {
-//     story
-//   }).then(res => {
-//     console.log(`Success: ${res.data.story.name} was created.`)
-//   }).catch(err => {
-//     console.log(`ERROR: ${story.name} failed.`)
-//   })
+    
+      Storyblok.post(`spaces/${config.spaceId}/stories/`, {
+        story
+      }).then(res => {
+        console.log(`Success: ${res.data.story.name} was created.`)
+      }).catch(err => {
+        console.log(`ERROR: ${story.name} failed.`)
+      })
 })
