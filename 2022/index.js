@@ -143,7 +143,8 @@ csvReader.parseStream(dataFromCsv, { headers: true, delimiter: ',' })
         title: line['NOTIZ HARDFACTS ÜBERSCHRIFT DE'],
         text: line['NOTIZ HARDFACTS TEXT DE'],
         title__i18n__en: line['NOTIZ HARDFACTS ÜBERSCHRIFT EN '],
-        text__i18n__en: line['NOTIZ HARDFACTS TEXT EN ']
+        text__i18n__en: line['NOTIZ HARDFACTS TEXT EN '],
+        component: `component_note`,
       })
     }
     
@@ -152,7 +153,8 @@ csvReader.parseStream(dataFromCsv, { headers: true, delimiter: ',' })
         title: line['NOTIZ COPYTEXT ÜBERSCHRIFT DE'],
         text: line['NOTIZ COPYTEXT TEXT DE '],
         title__i18n__en: line['NOTIZ COPYTEXT ÜBERSCHRIFT EN'],
-        text__i18n__en: line['NOTIZ COPYTEXT TEXT EN']
+        text__i18n__en: line['NOTIZ COPYTEXT TEXT EN'],
+        component: `component_note`,
       })
     }
     
@@ -161,7 +163,8 @@ csvReader.parseStream(dataFromCsv, { headers: true, delimiter: ',' })
       title: 'AAA (Angewandte Abschluss Arbeiten)',
       text: line['AAA (Angewandte Abschluss Arbeiten):'],
       title__i18n__en: 'AAA (Angewandte Abschluss Arbeiten)',
-      text__i18n__en: line['AAA (Angewandte Abschluss Arbeiten):']
+      text__i18n__en: line['AAA (Angewandte Abschluss Arbeiten):'],
+      component: `component_note`,
     })
     
     // one line of csv in here
